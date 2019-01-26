@@ -22,4 +22,9 @@ public class HomeController {
 
 	}
 
+	@RequestMapping("/oye")
+	public String greeting ()
+	{
+		return "Hello";
+	}
 }
