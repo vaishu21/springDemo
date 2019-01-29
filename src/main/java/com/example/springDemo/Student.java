@@ -1,7 +1,7 @@
 package com.example.springDemo;
 
 public class Student {
-	private String username;
+	/*private String username;
 	 private String password;
 	 public Student() {
 		// TODO Auto-generated constructor stub
@@ -18,6 +18,19 @@ public class Student {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}*/
+      private String sname;
+
+      public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
 	}
 
 

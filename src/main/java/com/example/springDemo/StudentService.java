@@ -4,6 +4,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface StudentService {
-	public boolean validateStudent(Student s);
+	/*public boolean validateStudent(Student s);
 
+}*/
+
+public String StudenttoUpper(Student s);
 }
+
